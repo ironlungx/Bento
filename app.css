@@ -7,23 +7,24 @@
 /* V A R I A B L E S */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
 :root {
   /* Font Size */
-  --fg-primary: 12vh; /* Time and Greetings */
+  --fg-primary: 10vh; /* Time and Greetings */
   --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
+  --fg-date: 10vh; /* Date */
   --fg-list: 2vh; /* Links List */
-  --icon: 3vh; /* Icon Size */
+  --icon: 3.5vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  --fg: #4c4f69; /* Foreground color */
+  --sfg: #5c5f77; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
+  --accent: #ea76cb; /* Hover color */
+  --background: #dce0e8; /* Background color */
+  --cards: #e6e9ef; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -35,12 +36,12 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #ca9ee6; /* Hover color */
+  --background: #292c3c; /* Background color */
+  --cards: #303446; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
+  --fg: #c6d0f5; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
 
   /* Image background  */
@@ -109,8 +110,8 @@ body {
 
 .card {
   background-color: var(--cards);
-  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
-  border-radius: 5px;
+  /* box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35); */
+  border-radius: 15px; /* Increased value for more roundness */
 }
 
 .card:hover {
